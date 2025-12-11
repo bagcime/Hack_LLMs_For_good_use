@@ -1,0 +1,81 @@
+{
+  "overall_accuracy": {
+    "original": 0.850713976633492,
+    "updated": 0.861964517524881,
+    "absolute_improvement": 0.011250540891388994
+  },
+  "datasets": [
+    {
+      "dataset": "FEF25_75_Liter",
+      "csv": "TestZero_FEF25_75_Liter.csv",
+      "var_name": "FEF25_75_Liter",
+      "original_mae": 0.042850678733031666,
+      "updated_mae": 0.033303167420814475,
+      "original_accuracy": 0.9366515837104072,
+      "updated_accuracy": 0.9592760180995475,
+      "original_correct": 207,
+      "updated_correct": 212,
+      "total": 221
+    },
+    {
+      "dataset": "FEF25_75_Pre_Percentage",
+      "csv": "TestZero_FEF25_75_Pre_Percentage.csv",
+      "var_name": "FEF25_75_Pre_Percentage",
+      "original_mae": 1.7286135693215339,
+      "updated_mae": 1.776470588235294,
+      "original_accuracy": 0.9149560117302052,
+      "updated_accuracy": 0.9178885630498533,
+      "original_correct": 312,
+      "updated_correct": 313,
+      "total": 341
+    },
+    {
+      "dataset": "FENO",
+      "csv": "TestZero_FENO.csv",
+      "var_name": "FENO",
+      "original_mae": 1.2289405684754522,
+      "updated_mae": 1.2289405684754522,
+      "original_accuracy": 0.9689922480620154,
+      "updated_accuracy": 0.9689922480620154,
+      "original_correct": 375,
+      "updated_correct": 375,
+      "total": 387
+    },
+    {
+      "dataset": "FEV1_fvc",
+      "csv": "TestZero_FEV1_fvc.csv",
+      "var_name": "FEV1_fvc",
+      "original_mae": 31.843491909385115,
+      "updated_mae": 13.103783171521036,
+      "original_accuracy": 0.47249190938511326,
+      "updated_accuracy": 0.56957928802589,
+      "original_correct": 146,
+      "updated_correct": 176,
+      "total": 309
+    },
+    {
+      "dataset": "fev1_percentage_pre",
+      "csv": "TestZero_fev1_percentage_pre.csv",
+      "var_name": "fev1_percentage_pre",
+      "original_mae": 1.9269629629629628,
+      "updated_mae": 2.067578558225508,
+      "original_accuracy": 0.8576709796672828,
+      "updated_accuracy": 0.8428835489833642,
+      "original_correct": 464,
+      "updated_correct": 464,
+      "total": 541
+    },
+    {
+      "dataset": "fvc_liter_pre",
+      "csv": "TestZero_fvc_liter_pre.csv",
+      "var_name": "fvc_liter_pre",
+      "original_mae": 0.44892156862745103,
+      "updated_mae": 0.4488627450980392,
+      "original_accuracy": 0.90234375,
+      "updated_accuracy": 0.8984375,
+      "original_correct": 462,
+      "updated_correct": 462,
+      "total": 512
+    }
+  ]
+}
